@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+:root {
+    --font0: 'Verdana';
+    --font1: 'Climate Crisis', cursive;
+    --font2: 'Shadows Into Light', cursive;
+}
+
+body {
+    font-family: var(--font0);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font1);
+    font-weight: 100;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vh;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 32px;
+    line-height: 48px;
+    font-family: var(--font2);
+    font-size: 32px;
+}
+
+section p {
+    padding-bottom: 32px;
+}
+
+.normal {
+    background-color: #FFF;
+    color: #000;
+}
+
+.image {
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.336);
+    background-color: #000000;
+    color: #FFF;
+    background-attachment: fixed;
+}
+
+.image p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #000000b4;
+    text-shadow: 2px 2px 0px black;
+    border-radius: 10px;
+}
+
+#img01 {
+    background-image: url('../images/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url('../images/background002.jpg');
+    background-size: cover;
+}
+
+a {
+    color: #FFF;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
